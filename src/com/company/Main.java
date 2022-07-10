@@ -27,13 +27,15 @@ public class Main {
 //
 //        System.out.println(wizard.getAsString());
 //        System.out.println(archer.getAsString());
+//
+//        ArrayList<Unit> units = new ArrayList<>();
+//        units.add(new Wizard(10, 20, "wiz1", 3));
+//        units.add(new Archer(3, 50, "ar1", 10));
+//
+//        for (int i = 0; i < units.size(); i++) {
+//            System.out.println(units.get(i).getAsString());
+//        }
 
-        ArrayList<Unit> units = new ArrayList<>();
-        units.add(new Wizard(10, 20, "wiz1", 3));
-        units.add(new Archer(3, 50, "ar1", 10));
-
-        for (int i = 0; i < units.size(); i++) {
-            System.out.println(units.get(i).getAsString());
-        }
+        Car car = new Car(200,"Model-T", CarType.Family);
     }
 }
